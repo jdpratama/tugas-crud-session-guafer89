@@ -1,0 +1,14 @@
+Buatlah CRUD sederhana untuk data pemesanan makanan. Gunakan database dengan 2 tabel.
+Tabel pertama adalah tabel user untuk login:
+userid (int 255 primary key auto increment)
+username (varchar 255)
+password (varchar 255)
+
+Tabel menu untuk menyimpan menu makanan:
+menuid (int 255 primary key auto increment)
+nama_menu (varchar 255)
+harga (int 255)
+rating (int 255)
+
+Halaman CRUD hanya bisa dibuka jika sudah login. Jika langsung membuka halaman CRUD, baik insert, update, list, maupun delete, langsung redirect aplikasi ke halaman login. Selain itu, buat juga fungsi logout untuk user. Ketika sudah berhasil logout, semua variabel session dihapus dan redirect ke halaman login.
+
