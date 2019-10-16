@@ -12,3 +12,5 @@ rating (int 255)
 
 Halaman CRUD hanya bisa dibuka jika sudah login. Jika langsung membuka halaman CRUD, baik insert, update, list, maupun delete, langsung redirect aplikasi ke halaman login. Selain itu, buat juga fungsi logout untuk user. Ketika sudah berhasil logout, semua variabel session dihapus dan redirect ke halaman login.
 
+Kumpulkan source code dan file database ke dalam github anda.
+
